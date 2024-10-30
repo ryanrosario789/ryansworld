@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="My Website.html">Personal</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="hobby.html">Hobbies</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <img src="images/fav.jpeg" width="250" height="100">
+        <p>This is the page to my favorite sports teams.</p>
+        <br>
+        <br>
+        <img src="images/baltimore.jpeg" width="400" height="350" usemap="#team-map-baltimore" alt="Baltimore Ravens Logo">
+        <img src="images/knicks.jpeg" width="400" height="350" usemap="#team-map-knicks" alt="New York Knicks Logo">
+
+        <!-- Image map for the Baltimore image -->
+        <map name="team-map-baltimore">
+            <area shape="rect" coords="0,0,400,350" href="hobby.html" alt="Hobbies">
+        </map>
+
+        <!-- Image map for the Knicks image -->
+        <map name="team-map-knicks">
+            <area shape="rect" coords="0,0,400,350" href="index.html" alt="Home">
+        </map>
+</body>
+</html>
